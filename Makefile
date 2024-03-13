@@ -18,4 +18,4 @@ fiban.o:fiban.c
 	gcc -c fiban.c
 sortnumber.o:sortnumber.c
 	     gcc -c sortnumber.c
-clean:rm -rf *.o
+clean: rm -rf *.o
